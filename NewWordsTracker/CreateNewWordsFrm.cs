@@ -11,10 +11,10 @@ using NewWordsTracker.Services;
 
 namespace NewWordsTracker
 {
-    public partial class Form1 : Form
+    public partial class CreateNewWordsFrm : Form
     {
         private WordManager manager = new WordManager();
-        public Form1()
+        public CreateNewWordsFrm()
         {
             InitializeComponent();
         }
